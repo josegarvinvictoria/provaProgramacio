@@ -1,0 +1,145 @@
+/** Full d'estil de la pàgina **/
+
+ .caixa1,
+    .caixa3 {
+        background-color: #9e0b0e;
+        padding-left: 0px;
+        padding-right: 0px;
+        height: 100vh;
+        position: relative;
+    }
+    .caixa2 {
+        z-index: 1;
+    }
+    .centrat {
+        display: block;
+        margin: auto;
+    }
+    /** Titols */
+    
+    h1.titol1,
+    h1.titol2,
+    h1.titol3 {
+        position: relative;
+        font-size: 13px;
+        font-weight: bold;
+        z-index: 1;
+        overflow: hidden;
+        text-align: center;
+        color: white;
+    }
+    h1.titol1:before,
+    h1.titol1:after {
+        position: absolute;
+        top: 51%;
+        overflow: hidden;
+        width: 50%;
+        height: 2px;
+        content: '\a0';
+        background-color: white;
+        text-align: right;
+    }
+    h1.titol1:before {
+        margin-left: -52%;
+    }
+    h1.titol1:after {
+        margin-left: 2%;
+    }
+    h1.titol2 {
+        color: #d79b9c;
+    }
+    .titol3 {
+        padding-top: 15px;
+        padding-bottom: 5px;
+    }
+    /** Boto NOM **/
+    
+    .btn-circle {
+        width: 60px;
+        height: 60px;
+        text-align: center;
+        padding: 6px 0;
+        font-size: 20px;
+        font-weight: bold;
+        color: #d79b9c;
+        line-height: 1.428571429;
+        border-radius: 30px;
+    }
+    /** Input **/
+    
+    .form-control {
+        width: 400px;
+        margin-top: 10px;
+    }
+    .apartat1 {
+        background-color: #9e0b0e;
+    }
+    .apartat2 {
+        background-color: #b2b0b0;
+    }
+    .apartat3 {
+        background-color: #e5e5e5;
+        padding-top: 1px;
+        height: 125px;
+    }
+    .video {
+        padding-bottom: 40px;
+    }
+    marquee {
+        position: relative;
+        width: 210%;
+        z-index: 1;
+        font-weight: bold;
+        top: 20px;
+    }
+    #zonaText {
+        height: 50px;
+        background-color: white;
+        position: relative;
+        bottom: 40px;
+        margin-top: 20px;
+    }
+    .botoDireccio {
+        color: white;
+        border-color: white;
+        background-color: #9e0b0e;
+    }
+    #esquerra {
+        margin-left: 25px;
+    }
+    #dreta {
+        margin-right: 25px;
+    }
+    .titol4 {
+        color: white;
+        text-align: center;
+        font-weight: bold;
+        margin-top: 10px;
+    }
+    #tlf {
+        color: white;
+        font-size: 15px;
+        font-weight: bold;
+        text-align: center;
+        margin-top: -10px;
+    }
+    
+    li{
+        list-style-type: none;
+        height: 60px;
+        text-align: center;
+        margin-left: -40px;
+        padding-top: 20px;
+    }
+    
+    li:nth-child(2n+1) { 
+        background-color: #b2b2b2;
+    } 
+    li:nth-child(2n)   {
+        background-color: #d9d6d6;
+    }
+    #llistaNoms{
+        overflow: scroll;
+        height: 550px;
+        
+    }
